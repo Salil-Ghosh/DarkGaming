@@ -1,0 +1,58 @@
+.body{
+    overflow: hidden;
+    background-color: black;
+    margin: 0px;
+    padding: 0px;
+}
+.genre{
+    display: flex;
+    padding-right: 0px;
+    padding-left: 0px;
+    margin-right: 0px;
+    margin-left: 0px;
+    margin-top: 15px;
+    background-color: black;
+    overflow: hidden;
+}
+.an{
+    width: 100%;
+    height: 97vh;
+    transition: width 1s ease-in-out;
+    z-index: -1;
+    border: 5px solid rgb(0, 0, 0);
+    
+}
+.img1{
+margin-left: -12px;
+width: 190%;
+}
+.an:hover{
+    width: 130%;
+    border-radius: 130px;
+    transform: scale(1.01);
+    box-shadow: 15px 15px rgb(255, 230, 0);
+    
+}
+.img1:hover{
+    width: 190%;
+    z-index: 2;
+    border-radius: 20px;
+    
+}
+.img2:hover{
+    
+    z-index: 2;
+}
+.img3:hover{
+    
+    z-index: 2;
+}
+.img4:hover{
+    width: 160%;
+    z-index: 2;
+    transform: translateX(-170px);
+}
+
+iframe{
+    margin: auto;
+}
